@@ -1,0 +1,38 @@
+# Sequencing data - never commit
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.sam
+*.cram
+
+# Reference genomes and indexes
+*.fna
+*.fa
+*.fasta
+*.fna.gz
+*.fa.gz
+*.gz
+*.bwt
+*.pac
+*.sa
+*.amb
+*.ann
+*_index/
+
+# R and Python artifacts
+.Rhistory
+.RData
+__pycache__/
+*.pyc
+
+# Large intermediates
+*.rds
+filtered/
+quant/*/aux_info/
+
+# OS
+.DS_Store
+Thumbs.db
