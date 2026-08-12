@@ -1,0 +1,6 @@
+library(vegan)
+d <- readRDS("results/diversity.rds")
+bd <- betadisper(d$bc, d$meta$group)
+print(anova(bd))
+cat("\nMean distance to centroid:\n")
+print(round(tapply(bd$distances, d$meta$group, mean), 4))
