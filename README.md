@@ -108,9 +108,13 @@ no call.
 
 ## Tools
 
-Linux · Bash · Conda/Bioconda · Git · Nextflow · Docker
-FastQC · MultiQC · fastp · BWA-MEM · SAMtools · BCFtools · SnpEff · IGV · Salmon · seqkit
-R: DESeq2 · tximport · DADA2 · vegan · Python: pandas · SciPy
+**Environment:** Linux · Bash · Conda/Bioconda · Git · Nextflow · Docker
+
+**NGS:** FastQC · MultiQC · fastp · BWA-MEM · SAMtools · BCFtools · SnpEff · IGV · Salmon · seqkit
+
+**R:** DESeq2 · tximport · DADA2 · vegan
+
+**Python:** pandas · SciPy
 
 ## Approach
 
